@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnpUtil Version="10.0.26200" Command="/enum-containers /disconnected /devices /format xml">
+  <Container ContainerId="{33333333-3333-3333-3333-333333333333}">
+    <Description>Wireless Controller</Description>
+    <Categories><Category>Input.Gaming</Category></Categories>
+    <ModelName>Wireless Controller</ModelName>
+    <Status>Disconnected</Status>
+    <Devices>
+      <Device InstanceId="USB\VID_054C&amp;PID_09CC\OLDPORT">
+        <DeviceDescription>USB Composite Device</DeviceDescription>
+        <Status>Disconnected</Status>
+      </Device>
+      <Device InstanceId="HID\VID_054C&amp;PID_09CC&amp;MI_03\OLDPORT">
+        <DeviceDescription>HID-compliant game controller</DeviceDescription>
+        <Status>Disconnected</Status>
+      </Device>
+    </Devices>
+  </Container>
+</PnpUtil>
+

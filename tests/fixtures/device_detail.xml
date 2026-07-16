@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnpUtil Version="10.0.26200" Command="/enum-devices ... /format xml">
+  <Device InstanceId="USB\VID_3233&amp;PID_0016\SERIAL">
+    <DeviceDescription>USB Composite Device</DeviceDescription>
+    <ClassName>USB</ClassName>
+    <ManufacturerName>(Standard USB Host Controller)</ManufacturerName>
+    <Status>Started</Status>
+    <DriverName>usb.inf</DriverName>
+    <HardwareIds>
+      <HardwareId>USB\VID_3233&amp;PID_0016&amp;REV_0200</HardwareId>
+      <HardwareId>USB\VID_3233&amp;PID_0016</HardwareId>
+    </HardwareIds>
+    <Parent>USB\ROOT_HUB30\1</Parent>
+    <Properties>
+      <Property Key="DEVPKEY_Device_Service" Type="String"><Value>usbccgp</Value></Property>
+      <Property Key="DEVPKEY_Device_BusReportedDeviceDesc" Type="String"><Value>Ducky One X Wireless</Value></Property>
+      <Property Key="DEVPKEY_Device_DriverProvider" Type="String"><Value>Microsoft</Value></Property>
+      <Property Key="DEVPKEY_Device_DriverVersion" Type="String"><Value>10.0.26100.8521</Value></Property>
+      <Property Key="DEVPKEY_Device_DriverDate" Type="FILETIME"><Value>6/21/2006 0:00:00</Value></Property>
+      <Property Key="DEVPKEY_Device_DriverInfPath" Type="String"><Value>usb.inf</Value></Property>
+      <Property Key="DEVPKEY_Device_ProblemCode" Type="UINT32"><Value>0x00000000</Value></Property>
+    </Properties>
+  </Device>
+</PnpUtil>
+
